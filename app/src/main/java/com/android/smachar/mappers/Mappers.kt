@@ -1,6 +1,6 @@
 package com.android.smachar.mappers
 
-import com.android.smachar.data.api.ArticleDTO
+import com.android.smachar.data.dto.ArticleDTO
 import com.android.smachar.domain.model.Article
 
 fun List<ArticleDTO>.toDomain():List<Article>{

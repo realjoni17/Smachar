@@ -1,4 +1,4 @@
-package com.android.smachar.data.api
+package com.android.smachar.data.dto
 
 data class ArticleDTO(val author: String,
                       val content: String,
