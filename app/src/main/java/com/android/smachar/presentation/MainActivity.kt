@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.android.smachar.presentation.homescreen.HomeScreen
+import com.android.smachar.presentation.navigation.NavGraph
 import com.android.smachar.ui.theme.SmacharTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -21,16 +22,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             SmacharTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = bgcolor1
-                ) {
-                    HomeScreen()
+                  NavGraph()
                 }
             }
         }
     }
-}
 
-val bgcolor1 = Color(0xFF5A5766)
+
