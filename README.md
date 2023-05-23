@@ -15,8 +15,8 @@ Architecture
 Preview
 -----
 |          Splash Screen           |          News Screen           |              
-|:--------------------------------:|:------------------------------:| :
-|       <img src="/Assets/Smachar3.jpg">       |    <img src="/Assets/pic1.png">     |             
+|:--------------------------------:|:------------------------------:| 
+| <img src="/Assets/Smachar3.jpg"> | <img src="/Assets/pic1.png">   |             
 
 Libraries & Tech Stack
 -----
